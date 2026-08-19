@@ -1,0 +1,7 @@
+/build/
+/external/vulkan_sdk
+/assets/models
+/assets/textures
+compile_commands.json
+slangdconfig.json
+.clangd
