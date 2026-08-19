@@ -1,6 +1,6 @@
 project(Cube_Platformer_Example_01 VERSION 0.01)
 
-set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD 20)
 
 file(GLOB_RECURSE EXAMPLE_SOURCES
   "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp"
