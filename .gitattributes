@@ -1,1 +1,2 @@
-include/third_party_libraries/* linguist-vendored
+include/third_party_libraries/** linguist-vendored
+*.html linguist-vendored
