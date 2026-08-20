@@ -8,13 +8,16 @@ Xenith is designed as thin wrapper. It eliminates just enough repetitive code, s
 
 - **Explicit ownership** Xenith gives you full access to handles such as VkInstance, VkDevice and Jolt physics interfaces.
 - **Data-oriented** Strictly data-oriented both in syntax and actual code.
-- **Determinstic** Most functions are determinstic and precise with explaining their task.
+- **Deterministic** Most functions are deterministic and precise with explaining their task.
 - **Modern Vulkan** Xenith encourages you to use and learn modern Vulkan(1.3) features without hiding API driver behind opaque abstraction.
 - **Modular architecture** gives you freedom to take or remove what you don't need or want.
 
 ## Requirements for using and linking
 For system dependencies, build instructions and CMake setup, check REQUIREMENTS_AND_LINKING.md
 
+
+## Contact
+thoriuumreactor@gmail.com
 
 ## Third-Party Libraries license
 
