@@ -1,11 +1,13 @@
 # REQUIREMENTS
 
+> **Note:** Xenith is developed and optimized specifically for LLVM/Clang. Using other compilers can possibly cause instabilities.
+
 ## Linux
 
 ### Debian/Ubuntu based:
 
 ```bash
-sudo apt install build-essential cmake ccache pkg-config libvulkan-dev vulkan-validationlayers-dev slang
+sudo apt install build-essential clang lld cmake ccache pkg-config libvulkan-dev vulkan-validationlayers-dev slang
 ```
 
 
@@ -18,6 +20,16 @@ Wayland
 ```bash
 sudo apt install libwayland-dev
 ```
+
+## Windows
+- **C++ compilation tools**
+  + LLVM/Clang
+  + CMake
+
+- **Vulkan SDK & shader compilation**
+  + LunarG Vulkan SDK
+  + Shader slang compiler
+
 
 # LINKING 
 
