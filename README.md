@@ -7,7 +7,8 @@ Currently there's no such framework that provides graphics low level control, su
 Xenith is designed as thin wrapper. It eliminates just enough repetitive code, such as making own image data loader, model loader, creating textures, linking and trying to make them work together, while leaving you with rest, such as making own Vulkan pipeline, structuring game loop.
 
 - **Explicit ownership** Xenith gives you full access to handles such as VkInstance, VkDevice and Jolt physics interfaces.
-- **Data-oriented** This framework is very data-oriented both in syntax and actual code.
+- **Data-oriented** Strictly data-oriented both in syntax and actual code.
+- **Determinstic** Most functions are determinstic and precise with explaining their task.
 - **Modern Vulkan** Xenith encourages you to use and learn modern Vulkan(1.3) features without hiding API driver behind opaque abstraction.
 - **Modular architecture** gives you freedom to take or remove what you don't need or want.
 
