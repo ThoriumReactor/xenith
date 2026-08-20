@@ -1,4 +1,4 @@
-Xenith is a lightweight, data-oriented 3D game framework designed for game developers that value control and performance.
+Xenith is a lightweight, data-oriented 3D low level game framework designed for game developers that value control and performance.
 
 ## Motivation
 Currently there's no such framework that provides graphics low level control, such as explicit VRAM allocation and custom Vulkan pipeline, while at the same time giving essential features for creating games, such as physics, model loading, input handling, ECS all out of box. 
